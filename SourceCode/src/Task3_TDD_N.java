@@ -1,12 +1,14 @@
-import static org.junit.Assert.*;
-
-import org.junit.Test;
+import org.junit.Before;
 
 import st.Parser;
 
-import org.junit.Before;
-import static org.junit.Assert.assertEquals;
-
 public class Task3_TDD_N {
+
+	private Parser parser;
+
+	@Before
+	public void set_up() {
+		parser = new Parser();
+	}
 
 }
